@@ -1,0 +1,54 @@
+.header	{
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+	border: solid;
+	border-color: #C6FFBB;
+	color: #C6FFBB;
+
+}
+
+*	{
+	background-color: #9DA9B2;
+}
+
+.people	{
+	text-align: left;
+	color: #C6FFBB;
+	font-family: 'Raleway', sans-serif;
+	border: solid;
+	margin-top: 12px;
+	padding-left: 12px;
+
+}
+
+.information	{
+	font-family: 'Lora', serif;
+	padding-bottom: 12px;
+	padding-right:12px;
+}
+
+img	{
+	float:left;
+	margin: 0 0 1em 1em;
+	padding-right: 12px;
+}
+
+
+
+.people:hover {
+	-webkit-transform: scale(1.019);
+        
+     transition: all 0.3s ease;
+}
+
+
+
+
+.wrap	{
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	
+}
