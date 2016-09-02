@@ -19,6 +19,7 @@
 	border: solid;
 	margin-top: 12px;
 	padding-left: 12px;
+	width: 320px;
 
 }
 
@@ -46,10 +47,25 @@ img	{
 
 
 .wrap	{
-	justify-content: space-between;
+	justify-content: space-around;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	
 	
+}
+
+@media screen and (min-width:600px) {
+  nav {
+    float: left;
+    width: 25%;
+  }
+  section {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width:599px) {
+  nav li {
+    display: inline;
+  }
 }
