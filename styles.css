@@ -1,3 +1,4 @@
+@media screen and (min-width: 800px) {
 .header	{
 	text-align: center;
 	font-family: 'Satisfy', cursive;
@@ -54,7 +55,9 @@ img	{
 	
 }
 
-@media screen and (min-width: 800px) {
+}
+
+
     * {
         background-color: #C6FFBB;
     }
@@ -66,13 +69,14 @@ img	{
 	border: solid;
 	margin-top: 12px;
 	padding-left: 12px;
-	min-width: 800px;
     }
 
     .header {
     	color: #9DA9B2;
     	border: solid;
     	border-color: #9DA9B2;
+    	text-align: center;
+    	font-family: 'Satisfy', cursive;
     }
     .wrap	{
 	justify-content: space-between;
@@ -86,4 +90,5 @@ img	{
      transition: all 0.3s ease;
 	}
 
-}
+
+
