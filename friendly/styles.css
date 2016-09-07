@@ -1,11 +1,14 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 500px){
 .header	{
 	text-align: center;
 	font-family: 'Satisfy', cursive;
 	border: solid;
 	border-color: #C6FFBB;
-	color: #C6FFBB;  
+	color: #C6FFBB; 
+
+
 }
+
 
 *	{
 	background-color: #9DA9B2;
@@ -55,40 +58,41 @@ img	{
 	
 }
 
+
 }
 
+@media screen and (max-width: 500px){
+.header	{
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+	border: solid;
+	border-color: #9DA9B2;
+	color: #9DA9B2;  
+}
 
-    * {
-        background-color: #C6FFBB;
-    }
+*	{
+	background-color: #C6FFBB;
+	max-width: 1200px;
+}
 
-    .people {
-    	color: #9DA9B2;
+.people	{
 	text-align: left;
+	color: #9DA9B2;
 	font-family: 'Raleway', sans-serif;
 	border: solid;
 	margin-top: 12px;
 	padding-left: 12px;
-    }
+	width: 320px;
 
-    .header {
-    	color: #9DA9B2;
-    	border: solid;
-    	border-color: #9DA9B2;
-    	text-align: center;
-    	font-family: 'Satisfy', cursive;
-    }
-    .wrap	{
-	justify-content: space-between;
+}
+
+.wrap	{
+	justify-content: space-around;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	}
-	.people:hover {
-	-webkit-transform: scale(1.012);
-        
-     transition: all 0.3s ease;
-	}
+	
+	
+}
 
-
-
+}
